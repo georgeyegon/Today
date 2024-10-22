@@ -1,0 +1,99 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#lost-form {
+    background-color: yellow;
+}
+
+#found-form {
+    background-color: lightblue;
+}
+
+input[type="text"], input[type="date"], input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-lost {
+    background-color: #ff5733; /* Orange */
+}
+
+.btn-found {
+    background-color: #33c3ff; /* Light Blue */
+}
+
+.btn-view-lost {
+    background-color: #28a745; /* Green */
+}
+
+.btn-view-found {
+    background-color: #ffcc00; /* Yellow */
+}
+
+.btn-edit {
+    background-color: #28a745; /* Green for edit */
+}
+
+.item-list {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    text-align: left;
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    .item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        width: 100%;
+    }
+}
